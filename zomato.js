@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     async function getBotResponse(userMessage) {
-        const apiKey = "AIzaSyCerD05fe4tpb64B7q3jkQ1t9jcJMkCdgo";  // Replace with your actual Gemini API Key
+        const apiKey = ";  // Replace with your actual Gemini API Key
         const apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateText";
 
         const requestBody = {
